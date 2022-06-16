@@ -1,6 +1,8 @@
-import React, { useEffect, useState  } from 'react';
-import Loader from "./components/Loader.js"
+import React, { useEffect, useState } from 'react';
+
+
 import Navbar from "./components/Navbar";
+import Loader from "./components/Loader";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -15,9 +17,9 @@ function App() {
         <Loader />
     ) : (
     <div className="App text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-</div>
-    );
+<Navbar />
+    </div>
+  );
 }
 
 export default App;
