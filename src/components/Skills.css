@@ -46,8 +46,8 @@
   grid-gap: 1rem;
   padding: 1.4rem 0.5rem;
   grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-  width: 8rem;
+  width: 9rem;
   border-radius: 1rem;
   text-align: center;
-    margin: 1.2rem 0.7rem;
+    margin: 1.2rem 1rem;
   }
