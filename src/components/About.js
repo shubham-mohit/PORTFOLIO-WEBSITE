@@ -65,7 +65,7 @@ export default function About() {
           data-aos="fade-left"
         >
           <img
-            className="image-approunded-full rounded-t-full rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4 "
+            className="image-approunded-full rounded-t-full rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-3/6 "
             alt="img"
             src={process.env.PUBLIC_URL+"profile1.jpeg"}
           />

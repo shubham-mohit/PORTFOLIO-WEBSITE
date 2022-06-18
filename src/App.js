@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
 import Home from "./components/Home"
 import About from './components/About';
+import Skills from './components/Skills';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
 <Navbar />
 <Home/>
 <About/>
+<Skills/>
     </div>
   );
 }
