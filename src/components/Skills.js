@@ -17,6 +17,7 @@ export default function Skills() {
       <h1 data-aos="fade-down">Tools And Skills</h1>
 
       <br></br>
+      <br></br>
       <h2 data-aos="fade-down">Front-End</h2>
       <div class="skills-div">
         <div class="skills-card" data-aos="flip-up">
