@@ -31,7 +31,7 @@ export const projects = [
     subtitle: "TECH STACK: HTML | CSS | JavaScript",
     description:
       "Life Style Stores is an e-commerce website which sells leading fashion accessories. We were 4 member team and completed project in 6 days. ",
-    image: "https://i.ibb.co/pJqxZFh/udacity1.png",
+    image: "/life1.gif",
     gitlink: "https://github.com/Mdshahbazalam6/lifestylestores.com",
     link: "https://lifestylestoresclone.netlify.app/",
   },
