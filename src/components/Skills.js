@@ -85,14 +85,14 @@ export default function Skills() {
         <div class="skills-card" data-aos="flip-up">
           <img
             src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-            alt=""
+            alt="git"
           />
           <h3>Git</h3>
         </div>
         <div class="skills-card" data-aos="flip-up">
           <img
-            src="https://cdn2.iconfinder.com/data/icons/metro-ui-dock/512/Github.png"
-            alt=""
+            src="/github.png"
+            alt="github"
           />
           <h3>Github</h3>
         </div>
