@@ -14,19 +14,13 @@ const Footer = () => {
           <h3>Copyright © {year} Vijay Kumar Singh. All rights reserved</h3>
         </div>
         <div className="footer-body flex justify-between text-2xl">
-          <a href="https://github.com/singhvijay29" target="_blank" className="mx-2.5 "> <i class="fab fa-github"></i></a>
+          <a href="https://github.com/Rajesh270712" target="_blank" className="mx-2.5 "> <i class="fab fa-github"></i></a>
 
-          <a href="https://twitter.com/VijayKumar609" target="_blank" className="mx-2.5 text-2xl">
-            <i class="fab fa-twitter-square"></i>
-          </a>
-
-          <a href="https://www.linkedin.com/in/vijay-kumar-singh-675270203/" target="_blank" className="mx-3.5 ">
+          <a href="https://www.linkedin.com/in/rajesh-bagul/" target="_blank" className="mx-3.5 ">
             <i class="fab fa-linkedin"></i>
           </a>
 
-          <a href="https://www.instagram.com/singh_vijay294/" target="_blank" className="mx-3.5 text-2xl">
-            <i class="fab fa-instagram"></i>
-          </a>
+   
         </div>
       </div>
     </>
