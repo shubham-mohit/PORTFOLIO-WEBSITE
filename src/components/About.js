@@ -67,7 +67,7 @@ export default function About() {
           <img
             className="image-approunded-full rounded-t-full rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4 "
             alt="img"
-            src={process.env.PUBLIC_URL+"profile1.jpeg"}
+            src="/profile1.jpeg"
           />
         </div>
       </div>

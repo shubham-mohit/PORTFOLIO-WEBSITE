@@ -91,7 +91,7 @@ export default function Skills() {
         </div>
         <div class="skills-card" data-aos="flip-up">
           <img
-            src="/github.png"
+            src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
             alt="github"
           />
           <h3>Github</h3>
