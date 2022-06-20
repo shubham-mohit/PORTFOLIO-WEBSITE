@@ -2,13 +2,14 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
 import './Navbar.css'
+
 export default function Navbar() {
   return (
     <header className="headerTop bg-gray-800 top-0 bg-gray-800 mt-0 sticky top-0 overflow-hidden w-full z-10 top-0">
       <div className="container mx-auto flex flex-wrap p-4 flex-col md:flex-row items-center">
         <a className="title-font font-medium text-white mb-3 md:mb-0">
-          <a href="/#home" className="ml-3 text-xl">
-          ℜ𝔞𝔧𝔢𝔰𝔥 𝔇𝔦𝔤𝔞𝔪𝔟𝔞𝔯 𝔅𝔞𝔤𝔲𝔩
+          <a href="/#home" className="ml-3 text-xl pacifico">
+          𝕽𝖆𝖏𝖊𝖘𝖍 𝕯𝖎𝖌𝖆𝖒𝖇𝖆𝖗 𝕭𝖆𝖌𝖚𝖑
           </a>
         </a>
         <nav className="cool-link md:mr-auto md:ml-6 md:py-4 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">

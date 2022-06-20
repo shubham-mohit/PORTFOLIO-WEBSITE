@@ -7,6 +7,7 @@ import Home from "./components/Home"
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from "./components/Projects"
+import Contact from './components/Contact';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
     useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
 <About/>
 <Skills/>
 <Projects/>
+<Contact/>
     </div>
 
 

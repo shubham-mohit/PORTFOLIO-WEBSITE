@@ -5,6 +5,9 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 
 export default function Projects() {
+
+  const [ isHover, setHover] = React.useState(false)
+
   useEffect(()=>{
     Aos.init({duration: 2000,
       useClassNames: true,
@@ -29,7 +32,7 @@ export default function Projects() {
             <a
               key={project.image}
               className="sm:w-1/2 w-100 p-5">
-              <div className="flex relative">
+              <div className="flex relative"  >
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-80 object-center overflow-hidden"
