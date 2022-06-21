@@ -13,7 +13,7 @@ export default function Skills() {
   });
   return (
     <section id="Skills" class="skills-section">
-      <div class="container"></div>
+      {/* <div class="container"></div> */}
       <h1 data-aos="fade-down">Tools And Skills</h1>
 
       <br></br>

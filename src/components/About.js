@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import './About.css'
+
 
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -16,7 +18,7 @@ export default function About() {
     <section id="about">
       <div className="about-cont container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-28 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 style={{ fontSize: "2em" }} data-aos="fade-down">
+          <h1 className="head" data-aos="fade-down">
             LET ME <span className="purple"> INTRODUCE </span> MYSELF
           </h1>
           <br></br>
@@ -65,7 +67,7 @@ export default function About() {
           data-aos="fade-left"
         >
           <img
-            className="image-approunded-full rounded-t-full rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4 "
+            className="image-approunded-full rounded-t-half rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4  "
             alt="img"
             src="/profile1.jpeg"
           />

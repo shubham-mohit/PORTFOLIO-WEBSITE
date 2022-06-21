@@ -51,3 +51,15 @@
   text-align: center;
     margin: 1.2rem 1rem;
   }
+
+  .skills-card:hover{
+    background-color: rgb(45 58 77 / var(--tw-bg-opacity));
+    /* transition: background-color 0.001ms 0s ; */
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .skills-div{
+        margin: 0% !important;
+    }
+  }

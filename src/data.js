@@ -17,22 +17,22 @@ export const projects = [
   //   gitlink: "https://github.com/jaidev3/FW12_Dunzo_Project-Back-End",
   //   link: "https://masai-dunzo.netlify.app/",
   // },
-  // {
-  //   title: "Udacity.com Clone",
-  //   subtitle: "TECH STACK: HTML | CSS | JavaScript | Express Js | Mongo DB",
-  //   description:
-  //     "This project is a complete clone UI of the Udacity website with the functionalities of signing in, buying a course and visiting the course using frontend and backend technologies to save user data, course data, payment data, etc.",
-  //   image: "https://i.ibb.co/K2bmxr2/udacity2.png",
-  //   gitlink: "https://github.com/Pavankalyan477/Udacity_Project",
-  //   link: "https://udacity-clone-git-master-udacity-clone.vercel.app/",
-  // },
   {
     title: "Life Style Stores Clone",
     subtitle: "TECH STACK: HTML | CSS | JavaScript",
     description:
-      "Life Style Stores is an e-commerce website which sells leading fashion accessories. We were 4 member team and completed project in 6 days. ",
+      "Life Style Stores is an e-commerce website which sells leading fashion trends and styles. A cooperative Project worked by a group of 4 executed in 6 days. ",
     image: "/life1.gif",
     gitlink: "https://github.com/Mdshahbazalam6/lifestylestores.com",
     link: "https://lifestylestoresclone.netlify.app/",
+  },
+  {
+    title: "Spotify App Clone",
+    subtitle: "TECH STACK: HTML | CSS | JavaScript ",
+    description:
+      "Spotify is a digital music streaming service that gives access to songs, podcasts and videos. A cooperative Project worked by a group of 5 executed in 6 days.",
+    image: "/spotify.gif",
+    gitlink: "https://github.com/deepaksahu3698/Spotify_webapp_Clone",
+    link: "",
   },
 ];
