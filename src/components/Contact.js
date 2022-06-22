@@ -19,13 +19,13 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('service_flhtcte', 'template_04b51x4', form.current, 'user_jEpZ0vTu03Aje92I2PJoH')
-    //   .then((result) => {
-    //       console.log(result.text);
-    //   }, (error) => {
-    //       console.log(error.text);
-    //   });
-    //   e.target.reset()
+    emailjs.sendForm('service_qpku3oh', 'template_kf9iwrm', form.current, 'EuKkdXnv8_H6wQVHf')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
   };
 
   return (
