@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import ScrollButton from './components/scrollButton';
 
 import Navbar from "./components/Navbar";
 import Loader from "./components/Loader";
@@ -30,6 +30,7 @@ function App() {
 <Projects/>
 <Contact/>
 <Footer/>
+<ScrollButton />
     </div>
 
 

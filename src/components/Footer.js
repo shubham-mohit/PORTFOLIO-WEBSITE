@@ -5,7 +5,7 @@ const Footer = () => {
   let year = date.getFullYear();
   return (
     <>
-    <center style={{marginTop:"6em"}} ><img src="/foot_preview_rev_1.png" ></img></center>
+    <center style={{marginTop:"3em"}} ><img src="/foot_preview_rev_1.png" ></img></center>
     <div className="footer  p-3 flex justify-between bg-gray-800 items-center">
       <div className="container">
           <h3>Copyright © {year} Rajesh Bagul </h3>
