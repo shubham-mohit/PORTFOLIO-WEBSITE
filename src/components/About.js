@@ -69,7 +69,7 @@ export default function About() {
           <img
             className="image-approunded-full rounded-t-half rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4  "
             alt="img"
-            src="/profile1.jpeg"
+            src="/profile.png"
           />
         </div>
       </div>
