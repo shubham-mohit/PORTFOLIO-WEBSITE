@@ -47,10 +47,10 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <div className="p-5 text-3xl">
-<a href={project.gitlink} className="mr-4">
+<a target="_blank" href={project.gitlink} className="mr-4">
   <i class="fab fa-github"></i>
 </a>
-<a href={project.link}>
+<a target="_blank" href={project.link}>
   <i class="fas fa-link"></i>
 </a>
 </div>

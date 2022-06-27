@@ -16,11 +16,11 @@ const Footer = () => {
         </div>
 
          <div className="footer-body flex justify-between text-2xl">
-          <a href="https://github.com/Rajesh270712" rel="opener" className="mx-2.5 "> <i class="fab fa-github"></i></a>
+          <a href="https://github.com/Rajesh270712" target="_blank" className="mx-2.5 "> <i class="fab fa-github"></i></a>
 
          
 
-          <a href="https://www.linkedin.com/in/rajesh-bagul/" rel="opener" className="mx-3.5 ">
+          <a href="https://www.linkedin.com/in/rajesh-bagul/" target="_blank" className="mx-3.5 ">
           <i class="fab fa-linkedin"></i>
           </a>
 
