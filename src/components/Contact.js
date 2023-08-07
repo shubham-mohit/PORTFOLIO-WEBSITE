@@ -41,7 +41,7 @@ export default function Contact() {
                 <ul className="circle-cont">
                   <li>
                     <a className="circle2">
-                      <i class="fas fa-phone-square-alt"></i>+91 7410153599
+                      <i class="fas fa-phone-square-alt"></i>+91 8698568231
                     </a>
                   </li>
                   <li className="mx-auto flex sm:flex-nowrap">
@@ -51,11 +51,11 @@ export default function Contact() {
                     >
                       <i class="fas fa-envelope-square"></i>
                     </a>
-                    rajeshbagul2001@gmail.com
+                    shubhammohite801@gmail.com
                   </li>
                   <li>
                     <a
-                      href="https://github.com/Rajesh270712"
+                      href="https://github.com/shubham-mohit"
                       target="_blank"
                       className="circle"
                     >
@@ -64,7 +64,7 @@ export default function Contact() {
                   </li>
                   <li>
                     <a
-                      href="https://www.linkedin.com/in/rajesh-bagul/"
+                      href="https://www.linkedin.com/in/shubham-mohite-838591268/"
                       target="_blank"
                       className="circle"
                     >

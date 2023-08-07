@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import "./Skills.css";
 import AOS from "aos";
+import AWS3 from '../assets/amazon-aws.svg';
+import Redis from '../assets/redis (1).svg'
 import "aos/dist/aos.css";
 
 export default function Skills() {
@@ -44,14 +46,12 @@ export default function Skills() {
           />
           <h3>HTML</h3>
         </div>
-
         <div class="skills-card" data-aos="flip-up">
-          <img src="https://cdn.svgporn.com/logos/redux.svg" alt="" />
-          <h3>Redux</h3>
-        </div>
-        <div class="skills-card" data-aos="flip-up">
-          <img src="https://github.com/chakra-ui.png" alt="" />
-          <h3>Chakra UI</h3>
+          <img
+            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            alt="git"
+          />
+          <h3>Git</h3>
         </div>
        
       </div>
@@ -84,7 +84,7 @@ export default function Skills() {
         </div>
         <div class="skills-card" data-aos="flip-up">
           <img
-            src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            src= {AWS3}
             alt="git"
           />
           <h3>Git</h3>
@@ -95,6 +95,13 @@ export default function Skills() {
             alt="github"
           />
           <h3>Github</h3>
+        </div>
+        <div class="skills-card" data-aos="flip-up">
+          <img
+            src= {Redis} 
+            alt="Redis"
+          />
+          <h3>Redis</h3>
         </div>
       </div>
       <br></br>

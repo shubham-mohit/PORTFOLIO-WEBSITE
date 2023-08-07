@@ -27,7 +27,7 @@ export default function Home() {
 
           <h1 className="heading-name text-6xl mr-0.5">
             I'M 
-            <strong className="main-name text-5xl"> Rajesh Digambar Bagul </strong></h1>
+            <strong className="main-name text-5xl"> Shubham Baban Mohite </strong></h1>
             <br></br>
     
             <h1 className="text-4xl" data-aos="fade-"><Type /> </h1>

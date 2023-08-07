@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import './About.css'
+import profile from '../assets/profile.jpeg'
 
 
 import Aos from "aos";
@@ -32,7 +33,7 @@ export default function About() {
                 data-aos="fade-right"
               >
                 <p className="home-about-body" style={{ fontSize: "1.4em" }}>
-                  Dedicated and efficient full stack web developer with
+                  Dedicated and efficient Mern Stack Developer with
                   excellent problem solving skills and ability to learn quickly
                   and perform well in a team. Strongly interested in obtaining
                   appropriate position to work in enhancing product and real
@@ -48,7 +49,7 @@ export default function About() {
 
           <div className="flex justify-center mt-14" data-aos="fade-up">
             <a
-              href="https://drive.google.com/file/d/1trLMRtYuYkleqmv9-TCsmMXajTZENYpT/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1Ln564f7SfTzWL2CsyCsrA9KMJEG-7_Jr?usp=drive_link"
               target="_blank"
               className="inline-flex text-white bg-green-500 border-0 py-3 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
             >
@@ -60,6 +61,13 @@ export default function About() {
             >
               Projects
             </a>
+            <a
+              href="http://api.whatsapp.com/send?phone=8698568231"
+              target="_blank"
+              className="ml-4 inline-flex text-gray-400 bg-red-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
+            >
+              What's app
+            </a>
           </div>
         </div>
         <div
@@ -69,7 +77,7 @@ export default function About() {
           <img
             className="image-approunded-full rounded-t-half rounded-b-full m-auto rounded-r-full and rounded-l-full border-8 w-2/4  "
             alt="img"
-            src="/profile.png"
+            src= {profile}
           />
         </div>
       </div>

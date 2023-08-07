@@ -1,39 +1,37 @@
+
+// import hotel from '../src/assets/hotel.gif'
+// import lib from '../src/assets/lib.gif'
+
 export const projects = [
   {
-    title: "Naukri.com Clone",
+    title: "Restaurant Management",
     subtitle:
-      "TECH STACK: HTML | CSS | JavaScript | React Js | Redux | Chakra UI ",
+      "TECH STACK: HTML | CSS | JavaScript | React Js |  ",
     description:
-      "Naukri.com is a recruitment platform that provides hiring-related services to recruiters and job seekers.",
+      "Restaurant management is website where a customer know about the food Items of Restaurant and contact them",
     responsibility:
-      " Developed Search page with all filter functionalities and job description where user can apply and save.",
-    team: " A cooperative Project worked by a group of 4 executed in 6 days.",
-    image: "./naukri.gif",
-    gitlink: "https://github.com/Rajesh270712/Naukri.com",
-    link: "https://naukriwebclone.netlify.app//",
+      " Give us Idea about Restaurant and the menus present in that particular restaurant and their prices.",
+    image: "/hotel.gif",
+    gitlink: "https://github.com/shubham-mohit/Restaurant-Website",
   },
   {
-    title: "Life Style Stores Clone",
-    subtitle: "TECH STACK: HTML | CSS | JavaScript",
+    title: "Book Management ",
+    subtitle: "TECH STACK: NodeJs | MongoDB | JavaScript | API | AWS S3 ",
     description:
-      "Life Style Stores is an e-commerce website which sells leading fashion trends and styles.",
+      "This is a backend project where user need to be authenticated if he want to perform operation on data",
     responsibility:
-      " Developed the product page with filter functionalities and the product description page.",
-    team: " A cooperative Project worked by a group of 4 executed in 6 days.",
+       "Book Management is a project where the books are manage online and the user can perform CRUD operation on it. ",
+    image: "/lib.gif",
+    gitlink: "https://github.com/shubham-mohit/Book-Management/blob/main/README.md",
+  },
+  {
+    title: "E-commerse Website",
+    subtitle: "TECH STACK:  NodeJs | MongoDB | JavaScript | API | AWS S3 ",
+    description:
+      "Also known as product management qhich is similar to Amazon,Flipcart etc",
+    responsibility:
+      "We had to create 4 Model like User Model, Products Model, Cart Model and Order Model. First, we need to create User. Then add products. After that User can add product in their cart which user wants to buy. And finally, user can order those products from Cart. Real time example of this project is some e-commerce website like Amazon, Flipkart, etc..",
     image: "/life1.gif",
-    gitlink: "https://github.com/Mdshahbazalam6/lifestylestores.com",
-    link: "https://lifestylestoresclone.netlify.app/",
-  },
-  {
-    title: "Spotify App Clone",
-    subtitle: "TECH STACK: HTML | CSS | JavaScript ",
-    description:
-      "Spotify is a digital music streaming service that gives access to songs, podcasts and videos.",
-    responsibility:
-      " Developed the Search and Album page using APIs and the Premium page with all functionality.",
-    team: " A cooperative Project worked by a group of 5 executed in 6 days.",
-    image: "/spotify.gif",
-    gitlink: "https://github.com/deepaksahu3698/Spotify_webapp_Clone",
-    link: "https://spotify-webapp-clone.netlify.app/",
+    gitlink: "https://github.com/shubham-mohit/E-comm/blob/main/README.md",
   },
 ];
