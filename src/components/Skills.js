@@ -85,9 +85,9 @@ export default function Skills() {
         <div class="skills-card" data-aos="flip-up">
           <img
             src= {AWS3}
-            alt="git"
+            alt="awss3"
           />
-          <h3>Git</h3>
+          <h3>AWS S3</h3>
         </div>
         <div class="skills-card" data-aos="flip-up">
           <img
